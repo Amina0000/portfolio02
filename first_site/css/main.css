@@ -1,0 +1,178 @@
+html body {
+    font-family: 'PT Sans Caption';
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+img {
+    display: inline-block;
+}
+
+/* GRID ..............................*/
+.container {
+    width: 1650px;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+.row {
+
+}
+
+.row:after {
+    clear: both;
+    content: "";
+    display: table;
+
+}
+
+.col-4 {
+    width: 540px;
+    margin-right: 15px;
+    float: left;
+}
+
+.col-4:last-child {
+    margin-right: 0px;
+}
+
+/* HEADER......................*/
+.header {
+    background: #343c4e;
+    background-image: url("../img/bg/backg.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 95vh;
+    color: #FFF;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.header__title {
+    font-size: 68px;
+    margin-bottom: 30px;
+    font-family: 'Merriweather';
+    margin-top: -125px;
+}
+
+.header__slogan {
+    font-size: 28px;
+    line-height: 42px;
+}
+
+.header__arrow {
+    font-size: 38px;
+    width: 380px;
+    height: 130px;
+    position: absolute;
+    bottom: 60px;
+    left: 40%;
+
+}
+
+
+/* PORTFOLIO.................*/
+.portfolio {
+    padding-top: 70px;
+    padding-bottom: 100px;
+
+}
+
+portfolio-item {
+    margin-bottom: 20px;
+
+}
+
+.title {
+    font-size: 46px;
+
+    margin-bottom: 60px;
+    font-family: 'Merriweather';
+    text-align: center;
+}
+
+.portfolio-item__img {
+    margin-bottom: 17px;
+}
+
+.portfolio-item__title {
+    font-size: 24px;
+    line-height: normal;
+    margin-bottom: 5px;
+}
+
+.portfolio-item__title a {
+    text-decoration: none;
+    color: #000;
+    border-bottom: 1px solid #000;
+
+}
+
+.portfolio-item__title a:hover {
+    color: #0052C2;
+    border-color: rgba(0, 82, 194, 0.3);
+}
+
+.portfolio-item__text p {
+    margin-top: 0px;
+    margin-bottom: 15px;
+}
+
+/* FOOTER........................*/
+.footer {
+    background-color: #5779B6;
+    color: antiquewhite;
+    padding-top: 90px;
+    padding-bottom: 190px;
+}
+
+.footer p {
+    margin-top: 0px;
+    margin-bottom: 15px;
+}
+
+p.footer__name {
+    font-size: 28px;
+    margin-bottom: 10px;
+    line-height: normal;
+    font-family: 'Merriweather';
+}
+
+p.footer__social {
+    color: #FFF;
+}
+
+p.footer__social-icons {
+    color: #FFF;
+    font-size: 32px;
+}
+
+p.footer__social-icons a {
+    color: #FFF;
+    text-decoration: none;
+    margin-right: 30px;
+}
+
+p.footer__social-icons a:last-child {
+    margin-right: 0px;
+}
+
+p.footer__social-icons a:hover {
+    color: #FFE400;
+}
+
+.button {
+    font-weight: 700;
+    text-decoration: none;
+    color: white;
+    display: inline-block;
+    border-width: 2px;
+    border-color: #FFF;
+    border-style: solid;
+    border-radius: 50px;
+}
